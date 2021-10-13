@@ -173,7 +173,11 @@
 
   li {
     width: 284px;
-    border-radius:15%;
+    box-shadow: 0 5px 5px -10px $box-shadow;
+    transition: 1s;
+    &:hover {
+      box-shadow: 5px 10px 5px 5px $box-shadow;
+      }
   }
 
   .work-image{
