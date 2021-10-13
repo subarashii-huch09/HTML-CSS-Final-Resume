@@ -71,7 +71,7 @@
   &::before {
     content: '';
     position: absolute;
-    background-image: url(./assets/images/dot-start.png);
+    background-image: url(/assets/images/dot-start.png);
     width: 33px;
     height: 37px;
     left: 48%;
@@ -100,7 +100,6 @@
   padding: 12px;
   background-color: $white;
   position: relative;
-  z-index:2;
 
   h4 {
     margin-bottom: 5px;
@@ -122,27 +121,30 @@
   
   &::before{
     content: '';
-    background-image: url(./images/dot-timeItem.png);
+    background-image: url(/assets/images/dot-timeItem.png);
     position: absolute;
     width: 24px;
     height: 28px;
     left: -27%;
     top: 3%;
+    z-index: 2;
   }
 }
 .left {
  top: 90px;
  right:-20%;
  text-align: right;
+ 
 
  &::before{
     content: '';
-    background-image: url(./images/dot-timeItem.png);
+    background-image: url(/assets/images/dot-timeItem.png);
     position: absolute;
     width: 24px;
     height: 28px;
     left: 112%;
     top: -3%;
+    z-index: 2;
   }
 }
 

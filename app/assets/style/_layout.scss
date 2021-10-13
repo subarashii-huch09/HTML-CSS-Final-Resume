@@ -1,7 +1,7 @@
 .wrap {
   width: 1025px;
   margin: 0 auto;
-  background:rgba(19, 40, 145, 0.05);
+  background-color:rgba(19, 40, 145, 0.05);
 }
 
 .header {
@@ -9,7 +9,7 @@
   padding-left: 135px;
   margin-bottom: 132px;
   height: 400px;
-  background-image:url(./assets/images/img-headerShape.png);
+  background-image: url(/assets/images/img-headerShape.png);
   background-size:cover;
   display: flex;
 }
@@ -59,7 +59,7 @@
 
 
   .footer {
-    background-image: url(./assets/images/img-Looper-bg.png);
+    background-image: url(/assets/images/img-Looper-bg.png);
     padding-top: 34px;
     padding-bottom: 32px;
 
